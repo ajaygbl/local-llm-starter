@@ -1,0 +1,9 @@
+# Steps 1-3 and 6 need only these two.
+requests>=2.31
+numpy>=1.26
+
+# Step 4 (dataset building) needs nothing extra.
+
+# Step 5 (QLoRA training) needs a GPU and its own install -- see
+# step5_train_qlora.py. Do NOT add unsloth/torch here; installing them is
+# platform-specific and you do not need them to do steps 1-4.
